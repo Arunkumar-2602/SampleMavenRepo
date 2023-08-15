@@ -1,0 +1,6 @@
+org\datadriven\ReadExcelData.class
+org\selenium\SelectClass.class
+org\selenium\XpathAmazon.class
+flipkart\FlipkartXpath.class
+dataProviderinTestNG\DataProviderTestNG.class
+org\selenium\WindowsHandling.class

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="18327" started-at="2023-08-12T18:58:52 IST" finished-at="2023-08-12T18:59:10 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="18327" started-at="2023-08-12T18:58:52 IST" finished-at="2023-08-12T18:59:10 IST">
+      <class name="dataProviderinTestNG.DataProviderTestNG">
+        <test-method status="PASS" signature="brower()[pri:0, instance:dataProviderinTestNG.DataProviderTestNG@2a40cd94]" name="brower" is-config="true" duration-ms="16308" started-at="2023-08-12T18:58:52 IST" finished-at="2023-08-12T18:59:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brower -->
+        <test-method status="PASS" signature="Login(java.lang.String,java.lang.String)[pri:0, instance:dataProviderinTestNG.DataProviderTestNG@2a40cd94]" name="Login" duration-ms="1201" started-at="2023-08-12T18:59:08 IST" data-provider="loginData" finished-at="2023-08-12T18:59:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="close()[pri:0, instance:dataProviderinTestNG.DataProviderTestNG@2a40cd94]" name="close" is-config="true" duration-ms="730" started-at="2023-08-12T18:59:09 IST" finished-at="2023-08-12T18:59:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- dataProviderinTestNG.DataProviderTestNG -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
